@@ -1,0 +1,116 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    overflow: hidden;
+}
+.header{ display: flex;
+
+    margin: 0 auto;
+  
+    margin-top: 5px;
+    padding: 0 2%;
+}
+
+
+.logo{ padding-left: 1%;
+padding-top: 2%; }
+
+.headerlinks{
+    width: 100%;
+    text-align: right;
+    margin-top: 25px;
+ 
+}
+
+
+.headerlinks a{
+
+    padding-left: 1%;
+    padding-right: 2%;
+    text-decoration: none;
+    font-style: bold;
+    color: black;
+    font-family: tahoma;
+}
+
+.box p{
+    float: right;
+    width: 1200px;
+    height: 1200px;
+    background-color: rgb(65, 114, 65);
+    position: fixed;
+    margin-left: 65%;
+    margin-top: 3%;
+    border-radius: 100%;
+    
+}
+
+.box img{
+    margin-left: 70%;
+    position: absolute;
+    margin-top: -1%;
+}
+
+.icons {
+    position: absolute;
+   
+    display: block;
+    right: 1%;
+    top: 35%;
+    width: 30px;
+}
+
+
+#icon1{   top: 42%; width: 20px; }
+#icon2{   top: 52%;}
+#icon3{   top: 62%;}
+
+
+.textostarbuck{
+
+    max-width: 600px;
+    margin-left: 5%;
+    margin-top: 5%;
+   
+    color: rgb(58, 52, 52);
+}
+
+.textostarbuck .main_textostarbuck{
+
+    font-size: 70px;
+    font-weight: bold;
+
+}
+
+#starbucks{
+
+    font-size: 90px;
+    color: rgb(50, 124, 50);
+    font-weight: bolder;
+}
+
+.textao{
+
+    max-width: 500px;
+
+}
+
+.textostarbuck button{
+
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    border:0;
+    border-radius: 20%;
+    background-color: rgb(50, 124, 50);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.clear{
+
+    clear: both;
+
+}
